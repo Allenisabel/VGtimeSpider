@@ -27,5 +27,3 @@ for i in range(1,12000):
 title = ['游戏名','开发商','发行商','发售时间']
 test = pd.DataFrame(columns=title,data=list)
 test.to_csv('文件地址.csv',encoding='utf-8')
-#测试下修改
-
