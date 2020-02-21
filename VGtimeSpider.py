@@ -4,7 +4,7 @@ import pandas as pd
 
 kv = {'user-agent':'Mozilla/5.0'}
 list = []
-for i in range(10000,12000):
+for i in range(1,12000):
     code = str(i)
     url = "https://www.vgtime.com/game/" + code +".jhtml"
     r = requests.get(url,headers=kv)
