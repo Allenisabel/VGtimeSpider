@@ -7,7 +7,7 @@ kv = {'user-agent':'Mozilla/5.0'}
 list = []
 
 #开始循环
-for i in range(10050,10100):
+for i in range(1,12000):
 
     #定义游戏名,英文名,开发商,发行商,最早发售,中文发售
     game = "/"
