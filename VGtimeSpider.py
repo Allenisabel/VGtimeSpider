@@ -63,6 +63,6 @@ for i in range(1,12000):
 #打印到csv文件
 title = ['code','url','游戏名','英文名','开发商','发行商','最早发售','中文发售']
 test = pd.DataFrame(columns=title,data=list)
-test.to_csv('/Users/zhengbowen/郑博文（个人）/Python自学文件/Vgtime.csv',encoding='utf-8')
+test.to_csv('Vgtime.csv',encoding='utf-8')
 
 
